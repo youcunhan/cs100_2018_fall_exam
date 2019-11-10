@@ -21,7 +21,7 @@ bool comparator( Employee * op1, Employee * op2 ) {
 //     if( op1->isFulltime != op2->isFulltime )
 //         return op1->isFulltime;
 //     if( op1->id.size() != op2->id.size() ) {
-//         if( op1->id.size() < op2->id.size() )
+//         if( op1->id.size() < op2->id.si ze() )
 //             return true;
 //         return false;
 //     }

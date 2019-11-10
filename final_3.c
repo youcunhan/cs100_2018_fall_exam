@@ -10,10 +10,10 @@ void countZeros(int num, int *count)
     countZeros(num/10, count);
 }
 
-int main() {
-    int *ptr = (int*)malloc(sizeof(int));
-    *ptr = 0;
-    countZeros(10020,ptr);
-    printf("%d\n", *ptr);
-    return 0;
-}
+// int main() {
+//     int *ptr = (int*)malloc(sizeof(int));
+//     *ptr = 0;
+//     countZeros(10020,ptr);
+//     printf("%d\n", *ptr);
+//     return 0;
+// }
